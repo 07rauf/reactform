@@ -7,7 +7,7 @@ function UserLogin() {
     const [pass, setPass] = useState(0);
     const password = (e) => {
     setPass(e.target.value.length)
-        if(pass < 8){
+        if(pass < 7){
             setAlertt('Ən azı 8 simvol');
             document.querySelector('.alertt').style.display = 'block'
       }else{
