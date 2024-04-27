@@ -1,0 +1,25 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+form .secondinput{
+    margin-top: 10px;
+}
+button{
+    width: 10%;
+    margin-top: 15px;
+    margin-left: 2%;
+}
+.alert{
+    background-color: red;
+    color: white;
+}
+.alertt{
+    background-color: red;
+    color: white;
+}
+p{
+    display: none;
+}
